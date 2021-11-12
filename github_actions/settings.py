@@ -82,7 +82,7 @@ if getenv('GITHUB_WORKFLOW'):
             'USER': 'postgres',
             'PASSWORD': 'postgres',
             'HOST': 'localhost',
-            'PORT': '5432'
+            'PORT': '5433'
         }
     }
 else:
@@ -93,7 +93,7 @@ else:
         'USER': 'luis_ballesteros',
         'PASSWORD': 'luis_ballesteros123*',
         'HOST':'localhost', #'ALLOWED_HOSTS': ['104.237.129.63'], # 'HOST': '104.237.129.63' OR 'HOST':'localhost'
-        'PORT': '5432', # 'PORT': 5432
+        'PORT': '5433', # 'PORT': 5433
     }
 }
 
