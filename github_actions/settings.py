@@ -87,6 +87,7 @@ if getenv('GITHUB_WORKFLOW'):
     }
 else:
     DATABASES = {
+        'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'luis_ballesteros_d',
         'USER': 'luis_ballesteros',
@@ -94,6 +95,8 @@ else:
         'HOST':'localhost', #'ALLOWED_HOSTS': ['104.237.129.63'], # 'HOST': '104.237.129.63' OR 'HOST':'localhost'
         'PORT': '5432', # 'PORT': 5432
     }
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
